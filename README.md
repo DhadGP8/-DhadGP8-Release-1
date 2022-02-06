@@ -1,4 +1,3 @@
-# -DhadGP8-Release-1
-#We have uploaded our project on google drive because the file was too big, and we couldn't add it directly on github
-https://drive.google.com/drive/folders/1g-R4VneyW2-7D9eEKaFZTfnZZfKb1zsh?usp=sharing
-
+# DHAD - ضاد
+ضاد is an iOS-based mobile application that utilizes AR technology to help children explore Arabic alphabets, it can be used by parents and teachers to provide an efficient learning experience for their children. 
+Our mobile application supports only the Arabic language, and it will be available in Saudi Arabia.
