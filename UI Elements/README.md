@@ -1,9 +1,10 @@
-### Here we Uploaded User interface elements that we designed like :
+### Here we've uploaded User interface elements that we designed such as,
 
-* Buttons
+- Buttons
 
-* Backgrounds
+- Backgrounds
 
-* Images
+- Images
 
 etc..
+
