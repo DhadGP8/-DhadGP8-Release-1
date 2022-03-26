@@ -1,0 +1,10 @@
+
+=== Sat Feb  5 00:12:30 2022
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were updated:
+  com.unity.ads from version 3.4.5 to 3.7.5
+  com.unity.analytics from version 3.3.5 to 3.6.12
+  com.unity.purchasing from version 2.0.6 to 4.1.1
