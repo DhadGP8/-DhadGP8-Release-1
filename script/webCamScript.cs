@@ -11,18 +11,22 @@ public class webCamScript : MonoBehaviour {
     //public Button fireButton;
     // public float shootForce=700.0f;
     // public Transform Camera;
+    public float time;
+    public GameObject stoppanel;
+
 
     // Use this for initialization
     void Start () {
 
-      //  if (Application.isMobilePlatform) {
-    //GameObject cameraParent = new GameObject ("camParent");
-    //cameraParent.transform.position = this.transform.position;
-    //this.transform.parent = cameraParent.transform;
-  //  cameraParent.transform.Rotate (Vector3.right, 180);
-//   }
+        //  if (Application.isMobilePlatform) {
+        //GameObject cameraParent = new GameObject ("camParent");
+        //cameraParent.transform.position = this.transform.position;
+        //this.transform.parent = cameraParent.transform;
+        //  cameraParent.transform.Rotate (Vector3.right, 180);
+        //   }
+        time = 30;
 
-    Input.gyro.enabled = true;
+        Input.gyro.enabled = true;
 
     //OnButtonDown();
 
@@ -43,7 +47,7 @@ public class webCamScript : MonoBehaviour {
     Rigidbody rb = bullet.GetComponent<Rigidbody>();
     bullet.transform.rotation = Camera.main.transform.rotation;
     bullet.transform.position = Camera.main.transform.position;
-    rb.AddForce(Camera.main.transform.forward * 500f);
+    rb.AddForce(Camera.main.transform.forward * 5000f);
     Destroy (bullet, 3);
 
    GetComponent<AudioSource> ().Play ();
@@ -56,9 +60,14 @@ public class webCamScript : MonoBehaviour {
   // Update is called once per frame
   void Update () {
 
-  Quaternion cameraRotation = new Quaternion (Input.gyro.attitude.x, Input.gyro.attitude.y, -Input.gyro.attitude.z, -Input.gyro.attitude.w);
-  this.transform.localRotation = cameraRotation;
-       
+        // Quaternion cameraRotation = new Quaternion (Input.gyro.attitude.x, Input.gyro.attitude.y, -Input.gyro.attitude.z, -Input.gyro.attitude.w);
+        // this.transform.localRotation = cameraRotation;
+        time -= Time.deltaTime;
+        if ( time <= 0)
+        {
+            stoppanel.SetActive(true);
+
+        }
 
 
     }
