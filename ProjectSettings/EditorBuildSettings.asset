@@ -6,75 +6,109 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Login.unity
-    guid: 5ea3cf8fe9d79f043930e27b8e3d8180
-  - enabled: 1
-    path: Assets/signup.unity
-    guid: 9bf140cfe123f9741bd322843a4dd5fb
-  - enabled: 1
-    path: Assets/Scenes/interface.unity
-    guid: 6bdce89659816455b9f906fc62d19910
-  - enabled: 1
-    path: Assets/popUp.unity
-    guid: 76a17fdbfb852514494acebacd0d0009
+    path: Assets/Scenes/Intro.unity
+    guid: cbeb2d5d15470a444ac1352899a91075
   - enabled: 1
     path: Assets/Scenes/ScanGame.unity
     guid: 4e9c85c3adae7b64d90835f934267476
   - enabled: 1
-    path: Assets/ArabicAlphabetBoard1/Scenes/AlphabetMenu.unity
-    guid: 63f83a98411ff4c60853eb6e90ce9cb7
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/ArabicAlphabetBoard1/Scenes/AlphabetWriting.unity
-    guid: 7a3d21c72157c2b46af95b866c7e44f9
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/interface.unity
+    guid: 6bdce89659816455b9f906fc62d19910
   - enabled: 0
     path: Assets/Scenes/Game1.unity
     guid: 5a5b95fe7043a7345914e2c79eb8e8bd
   - enabled: 1
-    path: Assets/ArabicAlphabetBoard1/Prefabs/ARgame.unity
-    guid: 73649094e7833244895151894a4a638b
-  - enabled: 1
     path: Assets/Scenes/alanoudGame.unity
     guid: 67e7a5f7e5b7bfa499666748b9415c37
   - enabled: 1
-    path: Assets/drag-dropGame/Scenes/draganddrop.unity
-    guid: d018d5081df75ab408b8026ee704ddf1
-  - enabled: 1
-    path: Assets/drag-dropGame/Scenes/draganddropnumber1.unity
-    guid: 9f476410eaad4a542a5640a878c3b821
+    path: Assets/game3-manar.unity
+    guid: aed3b49696c2c184c85810cfb9419013
   - enabled: 0
     path: 
-    guid: eb37ecedd1e5f4acaa4364533b118a95
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/ArabicAlphabetBoard1/Prefabs/ARgame.unity
-    guid: 73649094e7833244895151894a4a638b
+    path: Assets/Scenes/ARgame.unity
+    guid: 0f9994cf644510c43aa35ef6d2e8a0e4
   - enabled: 1
-    path: Assets/ARgame1-manar2.unity
-    guid: c373d358880d7a94380f44d9075bf640
+    path: Assets/Scenes/DragGameG1L1.unity
+    guid: 866656c8173ca8547a38e75f349e87f0
   - enabled: 1
-    path: Assets/drag-dropGame/Scenes/dragand-drop 5.unity
-    guid: 6e9f631c844a1e844b72102e175f1838
+    path: Assets/Scenes/DragGameG5L1.unity
+    guid: 508de125cfb05ed4093d63afa740dd12
   - enabled: 1
-    path: Assets/drag-dropGame/Scenes/draganddrop 4.unity
-    guid: 121e21f871a40034ba09cc4addc53acc
+    path: Assets/Scenes/DragGameG6L1.unity
+    guid: 707b2808cb7272343853949b6f27bfa9
   - enabled: 1
-    path: Assets/drag-dropGame/Scenes/draganddrop-3.unity
-    guid: ce8a8d96497adf141b8bfb44dc402f65
+    path: Assets/Scenes/DragGameG4L1.unity
+    guid: df2c1b7ca45d58e4989cd238f9d74a1c
   - enabled: 1
-    path: Assets/drag-dropGame/Scenes/dragAnddropNum 2.unity
-    guid: 1adeb445b90de7d4ebb69f83a2e5dc52
+    path: Assets/Scenes/DragGameG3L2.unity
+    guid: f7c074f81bed1a142b80595fd7832b77
   - enabled: 1
-    path: Assets/drag-dropGame/Scenes/draganddropNum1.unity
-    guid: cc46c1d610571e84d8aaf87e34bf5461
+    path: Assets/Scenes/DragGameG2L1.unity
+    guid: 0cf9e2a1574a8a84abf7bd489f19f9d4
+  - enabled: 1
+    path: Assets/Scenes/DragGameG1L2.unity
+    guid: 5b6e0231a296b014f81437f3c20bbad2
+  - enabled: 1
+    path: Assets/Scenes/AlphabetMenu.unity
+    guid: 5074843fe5ba3bb4cae07963f8357f76
+  - enabled: 1
+    path: Assets/Scenes/AlphabetWriting.unity
+    guid: 67f8a0f7db5a4f74cbb492fe5ea7a051
+  - enabled: 1
+    path: Assets/Scenes/game3-manar.unity
+    guid: ccc9ae60c877e74449590297100538f7
+  - enabled: 1
+    path: Assets/Scenes/signup.unity
+    guid: 14f6337f3ff13984aa6cfe4742ffbfe8
+  - enabled: 1
+    path: Assets/DragGameG3L1.unity
+    guid: b7bde7eca1de06b4c80230adf7c37e3c
+  - enabled: 1
+    path: Assets/Scenes/DragGameG2L2.unity
+    guid: 0b3997a84debe0f43a38d26ee8ed1458
+  - enabled: 1
+    path: Assets/Scenes/DragGameG4L2.unity
+    guid: 7dd9df3ce87d0f9419809cf0ba9f66e7
+  - enabled: 1
+    path: Assets/Scenes/DragGameG5L2.unity
+    guid: 3341940fcd2da204a90b4d46b1b427af
+  - enabled: 1
+    path: Assets/Scenes/DragGameG6L2.unity
+    guid: 33445ec06d665f94ab35dda0b6c7bb31
+  - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: f3cc263ea51ef024fa8a19e6ebe8b89f
+  - enabled: 1
+    path: Assets/PlayInterface.unity
+    guid: 7fd02608753717545a32444ce6276789
+  - enabled: 1
+    path: Assets/LeaderBoard.unity
+    guid: 371ee9edb1108494f9a61a3f07e1f608
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/shotingar.unity
+    guid: e5b3da818d2105248a01cfc41b32eb91
+  - enabled: 1
+    path: Assets/Scenes/Shooting.unity
+    guid: b907aeb41412bd04c987280a2d95d7ae
+  - enabled: 1
+    path: Assets/game1/ShootArObject.unity
+    guid: dec3ab2f011422648b8f20e9ca8b41d5
+  - enabled: 1
+    path: Assets/Scenes/popUp.unity
+    guid: d8f8988efb038b7419a131882dc67702
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 19a51df8ed6ba4291b6661ec0d62221a,
       type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: de8a8e4f987434338a4b1062feb8d069,
       type: 2}
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 1eb95d77acb39444e8cf44313496a874,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 58f40b12bbc864f3c96c6505a9a1e1e3,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0d3260511c27583449327e8eaf3b8107,
       type: 2}
